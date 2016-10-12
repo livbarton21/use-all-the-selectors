@@ -21,22 +21,41 @@ wrapper > .dfn {
 }
 
 .dfn strong:nth-child(odd) {
-  background-color: #b58900
+  background-color: #b58900;
 }
+
 #contents, #favs, #facts, #types {
   color: #93a1a1;
 }
-.dfn p+strong{color: #fff;
+
+.dfn p + strong {
+  color: #fff;
 }
-html body header nav ul li mark{background-color: #719e07;
+
+html body header nav ul li mark {
+  background-color: #719e07;
 }
-a[rel="external"]{background-color: #2694d8;
+
+a[rel="external"] {
+  background-color: #2694d8;
 }
-ol li:first-child{color: #719e47;
+
+ol li:first-child {
+  color: #719e47;
 }
-ol li:last-child{color: #2aa198;
+
+ol li:last-child {
+  color: #2aa198;
 }
-.types li:nth-child(odd){background-color: #657ba3;
+
+.types li:nth-child(odd) {
+  background-color: #657ba3;
 }
-.types li:nth-child(even){background-color: #586e75;
+
+.types li:nth-child(even) {
+  background-color: #586e75;
+}
+
+.types li:nth-child(3n) {
+  background-color: #d04b16;
 }
