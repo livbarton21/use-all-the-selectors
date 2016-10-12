@@ -1,25 +1,32 @@
 html {
   background-color: #fdf6e3;
 }
+
 header {
 
   font-size: 1.5rem;
 }
-nav{
-  ul{
-    font-family: sans-serif;
- }
+
+nav ul {
+  font-family: sans-serif;
 }
-masthead{
+
+.logo {
   text-transform: uppercase;
   background-color: #eee8d5;
 }
-contents{
-  favs{
-    facts{
-      types{
-        color: #93a1a1;
-      }
-    }
- }
+
+wrapper > .dfn {
+  background-color: #b58900;
+}
+
+.dfn strong:nth-child(odd) {
+  background-color: #b58900
+}
+#contents, #favs, #facts, #types {
+  color: #93a1a1;
+}
+.dfn p+strong{color: #fff;
+}
+html body header nav ul li mark{background-color: #719e07
 }
